@@ -1,0 +1,26 @@
+{
+    "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "asset-deployment-demo-client-side-solution",
+        "id": "62e64ead-016b-489b-86ea-9dee7bd425c2",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "features": [{
+            "title": "asset-deployment-demo-client-side-solution",
+            "description": "asset-deployment-demo-client-side-solution",
+            "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",
+            "version": "1.0.0.0",
+            "assets": {
+                "elementManifests": [
+                    "elements.xml"
+                ],
+                "elementFiles": [
+                    "schema.xml"
+                ]
+            }
+        }]
+    },
+    "paths": {
+        "zippedPackage": "solution/asset-deployment-demo.sppkg"
+    }
+}
